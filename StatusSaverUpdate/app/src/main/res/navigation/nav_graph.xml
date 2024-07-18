@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/nav_graph"
+    app:startDestination="@id/imagesFragment">
+
+    <fragment
+        android:id="@+id/imagesFragment"
+        android:name="com.adi121.statussaverupdate.ui.fragments.ImagesFragment"
+        android:label="ImagesFragment" />
+    <fragment
+        android:id="@+id/downloadsFragment"
+        android:name="com.adi121.statussaverupdate.ui.fragments.DownloadsFragment"
+        android:label="DownloadsFragment" />
+    <fragment
+        android:id="@+id/settingsFragment"
+        android:name="com.adi121.statussaverupdate.ui.fragments.SettingsFragment"
+        android:label="SettingsFragment" />
+    <fragment
+        android:id="@+id/moreFragment"
+        android:name="com.adi121.statussaverupdate.ui.fragments.MoreFragment"
+        android:label="fragment_more"
+         />
+    <fragment
+        android:id="@+id/videosFragment"
+        android:name="com.adi121.statussaverupdate.ui.fragments.VideosFragment"
+        android:label="fragment_videos"
+        tools:layout="@layout/fragment_videos" />
+</navigation>

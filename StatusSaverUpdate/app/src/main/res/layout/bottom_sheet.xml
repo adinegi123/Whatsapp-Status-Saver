@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center_horizontal"
+    android:orientation="vertical"
+    android:background="@color/backGroundColor"
+    >
+
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="How to Use"
+        android:textStyle="bold"
+        android:textSize="18sp"
+        android:layout_margin="@dimen/_10sdp"
+        android:textColor="@color/colorText"
+        />
+
+    <ImageView
+        android:layout_width="@dimen/_180sdp"
+        android:layout_height="@dimen/_80sdp"
+        android:src="@drawable/go_to_whatsapp"
+        android:scaleType="centerCrop"
+        />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Open Whatsapp"
+        android:textSize="14sp"
+        android:layout_margin="@dimen/_10sdp"
+        android:textColor="@color/colorText"
+        />
+
+    <ImageView
+        android:layout_width="@dimen/_180sdp"
+        android:layout_height="@dimen/_90sdp"
+        android:src="@drawable/view_status"
+        android:scaleType="centerCrop"
+        />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="View any status"
+        android:layout_margin="@dimen/_10sdp"
+        android:textColor="@color/colorText"
+        />
+
+    <ImageView
+        android:layout_width="@dimen/_180sdp"
+        android:layout_height="@dimen/_80sdp"
+        android:src="@drawable/come_back"
+        android:scaleType="centerCrop"
+        />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Come back again"
+        android:layout_margin="@dimen/_10sdp"
+        android:textColor="@color/colorText"
+        />
+
+
+</LinearLayout>
