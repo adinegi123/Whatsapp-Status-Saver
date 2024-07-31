@@ -85,7 +85,7 @@ class SettingsFragment : Fragment() {
 
         binding.tvRateApp.setOnClickListener {
             val intent = Intent(Intent.ACTION_VIEW)
-            intent.data = Uri.parse("market://details?id=com.vickyneji.statussaver")
+            intent.data = Uri.parse("market://details?id=com.adi121.statussaverupdate")
             startActivity(intent)
         }
 
